@@ -24,7 +24,7 @@ public class BaseActivity extends AppCompatActivity {
     BmobChatManager chatManager;
     CloverApplication application;
     //String APPID = "551b50c06f7edb512c12fcddbeec4925";
-    String APPID = "85e40757e81851d007990f3e103ec5ae";
+    String APPID = "9cafb000f0e570ab982d58335161539b";
 	private Toolbar toolbar;
 
 	@Override
@@ -43,7 +43,6 @@ public class BaseActivity extends AppCompatActivity {
 				
 				@Override
 				public void run() {
-					// TODO Auto-generated method stub
 					if (mToast == null) {
 						mToast = Toast.makeText(getApplicationContext(), text,
 								Toast.LENGTH_SHORT);
