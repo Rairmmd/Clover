@@ -1,7 +1,7 @@
 package cn.bmob.imdemo.adapter;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
+import androidx.appcompat.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
